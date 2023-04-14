@@ -1398,6 +1398,9 @@ footer {
 .footer-wrapper .footer-widget.widget-link ul li a:hover {
     color: #fb3b3a;
 }
+.footer-widget.widget-link a:hover {
+    color: #fb3b3a;
+}
 
 .footer-wrapper .footer-widget .title {
     font-weight: 700;
@@ -6297,3 +6300,8 @@ blockquote::before {
 .scrollToTop img {
     width: 100%;
 }
+
+.linkfootertop {
+    color:#898989;
+}
+
