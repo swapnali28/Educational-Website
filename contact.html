@@ -260,16 +260,20 @@
 
     
     <!-- ==========Contact Section Starts Here========== -->
+   
     <div class="contact-section padding-top bg_img" data-background="assets/images/contact/contact-bg.png">
         <div class="container">
             <div class="contact-wrapper">
                 <h4 class="title">Get In Touch</h4>
-                <form class="contact-form" id="contact_form_submit">
+                <form class="contact-form"  method="post" action="sendmail.php">
                     <div class="form-group">
-                        <input type="text" name="name" placeholder="Name" id="name">
+                        <input type="text" id="name" name="name" placeholder="Name" >
                     </div>
                     <div class="form-group">
                         <input type="text" name="email" placeholder="Email" id="email">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="phone">
                     </div>
                     <div class="form-group w-100">
                         <input type="text" name="subject" placeholder="Subject" id="subject">
@@ -279,7 +283,7 @@
                         <textarea name="message" placeholder="Message" id="message"></textarea>
                     </div>
                     <div class="form-group">
-                        <input type="submit" value="Submit">
+                        <input type="submit" value="Send Message">
                     </div>
                 </form>
             </div>
