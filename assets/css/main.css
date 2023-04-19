@@ -662,10 +662,10 @@ body {
     padding: 0;
     margin: 0;
     font-size: 16px;
-    color: #898989;
+    color: #333333;
     line-height: 28px;
     overflow-x: hidden;
-    font-family: "Open sans", sans-serif;
+    font-family: "Georgia, serif";
     background: #ffffff;
 }
 
@@ -856,7 +856,7 @@ input,
 button,
 select {
     height: 50px;
-    color: #898989;
+    color: #333333;
 }
 
 label,
@@ -1168,7 +1168,7 @@ input[type="submit"] {
 }
 
 .cl-black * {
-    color: #898989;
+    color: #333333;
 }
 
 .rtl {
@@ -1392,9 +1392,8 @@ footer {
 }
 
 .footer-wrapper .footer-widget.widget-link ul li a {
-    color: #898989;
+    color: #333333;
 }
-
 .footer-wrapper .footer-widget.widget-link ul li a:hover {
     color: #fb3b3a;
 }
@@ -1440,7 +1439,7 @@ footer {
 
 .footer-bottom-wrapper ul li a {
     padding: 5px;
-    color: #898989;
+    color:#333333;
 }
 
 .footer-bottom-wrapper ul li a:hover {
@@ -1953,7 +1952,7 @@ header::before {
     height: 40px;
     line-height: 40px;
     text-align: center;
-    color: #898989;
+    color:#333333;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -3266,7 +3265,7 @@ header::before {
 @media (min-width: 576px) {
     .filter {
         padding-bottom: 15px;
-        border-bottom: 1px solid #898989;
+        border-bottom: 1px solid #333333;
         margin: -10px -15px 40px;
     }
 
@@ -3685,7 +3684,7 @@ header::before {
 }
 
 .ratings.yellow .star-rate {
-    color: #898989;
+    color: #333333;
 }
 
 /*Best Project Section Starts Here*/
@@ -4486,7 +4485,7 @@ header::before {
 }
 
 .single-content-area .wish-add {
-    color: #898989;
+    color: #333333;
     text-decoration: underline;
     margin-left: 15px;
     margin-bottom: 15px;
@@ -4868,9 +4867,10 @@ header::before {
 .contact-item {
     background-color: white;
     box-shadow: 0px 0px 36px 4px rgba(0, 0, 0, 0.05);
-    padding: 60px 30px;
+    padding: 20px 20px;
     margin: 0 auto 30px;
     position: relative;
+    height:"50%"
 }
 
 .contact-item .contact-header {
@@ -4910,7 +4910,7 @@ header::before {
 }
 
 .contact-item .contact-content ul li a {
-    color: #898989;
+    color: #333333;
     font-weight: 600;
 }
 
@@ -5744,7 +5744,7 @@ header::before {
 
 .post-item.post-details .author-area .share li a {
     padding: 5px;
-    color: #898989;
+    color: #333333;
 }
 
 .post-item.post-details .author-area .share li a:hover {
@@ -6302,6 +6302,6 @@ blockquote::before {
 }
 
 .linkfootertop {
-    color:#898989;
+    color:#333333;
 }
 
