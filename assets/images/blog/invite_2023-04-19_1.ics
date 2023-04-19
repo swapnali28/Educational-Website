@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTAMP:20230414T044325Z
+UID:5905029a-5b05-4107-a628-ecb94b6b4235
+DTSTART:20230419T063000Z
+DTEND:20230419T073000Z
+DESCRIPTION:You are invited for discussion regarding your job application -
+  Data Analyst (Remote)\, Web conference url - meet.google.com/oza-izev-uyz
+ORGANIZER;ROLE=NON-PARTICIPANT;CN=Anchal Jain:mailto:careers@thinkfuture.fr
+ eshteam.com
+SUMMARY:Data Analyst (Remote) Interview - Web conference
+ATTENDEE;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;ROLE=REQ-PARTICIPANT;CN=Anish Kuma
+ r:mailto:anish10998@gmail.com
+END:VEVENT
+END:VCALENDAR

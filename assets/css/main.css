@@ -1040,7 +1040,7 @@ input[type="submit"] {
 
 @media (min-width: 768px) {
     .padding-top {
-        padding-top: 120px;
+        padding-top: 20px;
     }
 
     .padding-bottom {
@@ -1058,7 +1058,7 @@ input[type="submit"] {
 
 @media (min-width: 1200px) {
     .padding-top {
-        padding-top: 170px;
+        padding-top: 10px;
     }
 
     .padding-bottom {
@@ -1709,7 +1709,7 @@ header::before {
 .header-area {
     justify-content: space-between;
     align-items: center;
-    padding: 0 0 0 30px;
+    padding: 0 0 0 150px;
     background: #192431;
 }
 
@@ -1727,11 +1727,13 @@ header::before {
 
 .header-area .logo {
     width: 140px;
+    padding: 0 0 0 220px
 }
 
 .header-area .menu {
     align-items: center;
     width: 100%;
+    padding: 0 0 0 220px;
 }
 
 .header-area .menu li {
