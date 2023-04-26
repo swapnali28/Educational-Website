@@ -2241,7 +2241,7 @@ header::before {
 .banner-content .title {
     font-size: 40px;
     line-height: 50px;
-    color: #0e0d0d;
+    color:#fff;
     font-weight: bold;
     margin-bottom: 60px;
     /* text-transform: uppercase; */
@@ -2634,6 +2634,18 @@ header::before {
     /* box-shadow: 0 0 30px rgba(183, 156, 156, 0.051); */
     height: 283px;
 }
+.service-item2 {
+    /* text-align: center; */
+    margin-top: 15px;
+    /* padding: 0 40px 25px; */
+    margin-bottom: 30px;
+    text-align: justify;
+    padding: 20px;
+    border: 1px solid #ebebeb;
+    box-shadow: 5px 10px 18px #888888;
+    /* box-shadow: 0 0 30px rgba(183, 156, 156, 0.051); */
+    /* height: 283px; */
+}
 
 .service-item .service-thumb {
     -webkit-transform: translateY(-16px);
@@ -2651,8 +2663,8 @@ header::before {
 }
 
 .service-item .service-content .title {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight:500;
     margin-bottom: 17px;
 }
 
@@ -4063,7 +4075,6 @@ header::before {
     top: 0;
     right: 0;
     left: 0;
-    background: rgba(255, 255, 255, 0.63);
 }
 
 .page-header .container {
@@ -4090,6 +4101,7 @@ header::before {
 
 .page-header-content .title {
     margin-bottom: 10px;
+    
 }
 
 .page-header-content .breadcrumb {
@@ -4232,9 +4244,10 @@ header::before {
     padding: 0 30px 30px;
     border: 1px solid rgba(0, 0, 0, 0.07);
     background: #ffffff;
-    height: 350px;
-    width: 280px;
+   margin-left: 30px;
+   margin-right: 30px;
     box-shadow: 5px 10px 18px #888888;
+    width: 100%;
 
 }
 
@@ -4268,7 +4281,7 @@ header::before {
     border: none;
     margin: -5px;
     margin-bottom: 25px;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 .service-tab-menu li {
@@ -6508,7 +6521,7 @@ blockquote::before {
     padding: 20px;
     border: 1px solid #ebebeb;
     box-shadow: 5px 10px 18px #888888;
-    width: 150px;
+    /* width: 150px; */
     border-radius: 10px;
     padding: 0px 25px;
     background: transparent;
