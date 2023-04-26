@@ -1105,9 +1105,7 @@ blockquote::before {
     padding-top: 80px;
 }
 
-.padding-bottom {
-    padding-bottom: 80px;
-}
+
 
 .padding-top-2 {
     padding-top: 40px;
@@ -1122,10 +1120,7 @@ blockquote::before {
         padding-top: 20px;
     }
 
-    .padding-bottom {
-        padding-bottom: 120px;
-    }
-
+    
     .padding-top-2 {
         padding-top: 60px;
     }
@@ -1140,9 +1135,7 @@ blockquote::before {
         padding-top: 10px;
     }
 
-    .padding-bottom {
-        padding-bottom: 170px;
-    }
+    
 
     .padding-top-2 {
         padding-top: 85px;
@@ -6533,41 +6526,39 @@ blockquote::before {
     padding: 0px 25px;
     background: transparent;
     max-width: 290px;
-}
-
-.input:active {
+   }
+   
+   .input:active {
     box-shadow: 2px 2px 15px #8707ff inset;
-}
-
-.form {
+   }
+   .form {
     background-color: #fff;
     display: block;
     padding: 1rem;
     max-width: 350px;
     border-radius: 0.5rem;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-}
-
-.form-title {
+  }
+  
+  .form-title {
     font-size: 1.25rem;
     line-height: 1.75rem;
     font-weight: 600;
     text-align: center;
     color: #000;
-}
-
-.input-container {
+  }
+  
+  .input-container {
     position: relative;
-}
-
-.input-container input,
-.form button {
+  }
+  
+  .input-container input, .form button {
     outline: none;
     border: 1px solid #e5e7eb;
     margin: 8px 0;
-}
-
-.input-container input {
+  }
+  
+  .input-container input {
     background-color: #fff;
     padding: 1rem;
     padding-right: 3rem;
@@ -6576,9 +6567,9 @@ blockquote::before {
     width: 300px;
     border-radius: 0.5rem;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-}
-
-.input-container span {
+  }
+  
+  .input-container span {
     display: grid;
     position: absolute;
     top: 0;
@@ -6587,15 +6578,15 @@ blockquote::before {
     padding-left: 1rem;
     padding-right: 1rem;
     place-content: center;
-}
-
-.input-container span svg {
+  }
+  
+  .input-container span svg {
     color: #9CA3AF;
     width: 1rem;
     height: 1rem;
-}
-
-.submit {
+  }
+  
+  .submit {
     display: block;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
@@ -6609,20 +6600,20 @@ blockquote::before {
     width: 100%;
     border-radius: 0.5rem;
     text-transform: uppercase;
-}
-
-.signup-link {
+  }
+  
+  .signup-link {
     color: #6B7280;
     font-size: 0.875rem;
     line-height: 1.25rem;
     text-align: center;
-}
-
-.signup-link a {
+  }
+  
+  .signup-link a {
     text-decoration: underline;
-}
-
-.form {
+  }
+  
+  .form {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -6631,42 +6622,42 @@ blockquote::before {
     border-radius: 25px;
     transition: .4s ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.4) 1px 2px 2px;
-}
-
-.form:hover {
+  }
+  
+  .form:hover {
     transform: translateX(-0.5em) translateY(-0.5em);
     border: 1px solid #171717;
     box-shadow: 10px 10px 0px #666666;
-}
-
-.heading {
+  }
+  
+  .heading {
     color: black;
     padding-bottom: 2em;
     text-align: center;
     font-weight: bold;
-}
-
-.input {
+  }
+  
+  .input {
     border-radius: 5px;
     border: 1px solid whitesmoke;
     background-color: whitesmoke;
     outline: none;
     padding: 0.7em;
     transition: .4s ease-in-out;
-}
-
-.input:hover {
+  }
+  
+  .input:hover {
     box-shadow: 6px 6px 0px #969696,
-        -3px -3px 10px #ffffff;
-}
-
-.input:focus {
+               -3px -3px 10px #ffffff;
+  }
+  
+  .input:focus {
     background: #ffffff;
-    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
-}
-
-.form .btn {
-
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+  }
+  
+  .form .btn {
+ 
     align-self: center;
     padding: 0.7em;
     padding-left: 1em;
@@ -6677,16 +6668,16 @@ blockquote::before {
     transition: .4s ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
     color: #4F46E5;
-}
-
-.form .btn:hover {
+  }
+  
+  .form .btn:hover {
     box-shadow: 6px 6px 0px #969696,
-        -3px -3px 10px #ffffff;
+               -3px -3px 10px #ffffff;
     transform: translateX(-0.5em) translateY(-0.5em);
-}
-
-.form .btn:active {
+  }
+  
+  .form .btn:active {
     transition: .2s;
     transform: translateX(0em) translateY(0em);
     box-shadow: none;
-}
+  }
