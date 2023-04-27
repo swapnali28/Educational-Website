@@ -4785,7 +4785,7 @@ header::before {
 }
 
 .terms-wrapper .item ul {
-    max-width: 460px;
+    /* max-width: 460px; */
 }
 
 .terms-wrapper .item ul li {
