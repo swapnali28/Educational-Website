@@ -4817,10 +4817,16 @@ header::before {
 
     .terms-wrapper .item .title {
         margin-bottom: 8px;
+        margin: 0px 30px;
     }
 
     .terms-wrapper .item p {
         margin-bottom: 14px;
+        margin: 0px 30px;
+    }
+    .terms-wrapper .item ul li {
+        margin-bottom: -7px;
+        margin: 0px 30px;
     }
 }
 
