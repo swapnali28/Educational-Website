@@ -1832,7 +1832,12 @@ header::before {
     padding: 20px 25px;
     position: relative;
 }
-
+.header-area .menu li a:hover{
+    color:#fb3b3a
+}
+.header-area .menu li a.active{
+    color:#fb3b3a
+}
 .header-area .menu li a::before {
     content: "";
     position: absolute;
