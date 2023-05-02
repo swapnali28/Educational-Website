@@ -6592,8 +6592,8 @@ blockquote::before {
   
   .input-container span svg {
     color: #9CA3AF;
-    width: 1rem;
-    height: 1rem;
+    width: 2rem;
+    height: 2rem;
   }
   
   .submit {
@@ -6657,15 +6657,14 @@ blockquote::before {
   }
   
   .input:hover {
-    box-shadow: 6px 6px 0px #969696,
+    box-shadow: 6px 6px 0px #ffffff,
                -3px -3px 10px #ffffff;
   }
   
-  .input:focus {
+  /* .input:focus {
     background: #ffffff;
     box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
-  }
-  
+  } */
   .form .btn {
  
     align-self: center;
@@ -6691,6 +6690,25 @@ blockquote::before {
     transform: translateX(0em) translateY(0em);
     box-shadow: none;
   }
+ .forms{
+    align-self: center;
+    padding: 0.7em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    transition: .4s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+    color: #4F46E5;
+    transform: translateX(-0.5em) translateY(-0.5em);
+    border: 1px solid #171717;
+    box-shadow: 10px 10px 0px #fff;
+ }
+ .inputs{
+    background-color: #fff;
+ }
+ 
 
 .column {
    width: 25%;
